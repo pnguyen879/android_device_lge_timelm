@@ -26,7 +26,6 @@ TARGET_VENDOR_DEVICE_NAME := timelm
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=timelm \
-    PRIVATE_BUILD_DESC="timelm-user 13 TKQ1.220829.002 2318902104908 release-keys"
-
-BUILD_FINGERPRINT := lge/timelm/timelm:13/TKQ1.220829.002/2318902104908:user/release-keys
+    DeviceName=timelm \
+    BuildDesc="timelm-user 13 TKQ1.220829.002 2318902104908 release-keys" \
+    BuildFingerprint=lge/timelm/timelm:13/TKQ1.220829.002/2318902104908:user/release-keys
